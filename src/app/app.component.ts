@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myfirst-project';
+
+  onValueChange(event) {
+    console.warn( 'fromAppComponent', event);
+  }
 }

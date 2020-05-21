@@ -1,0 +1,9 @@
+<p>result-list works!</p>
+
+empList : {{empList | json}}
+
+<ul>
+    <li *ngFor="let item of empList">
+        departmentCode:{{ item.department.departmentCode}} departmentName:{{ item.department.departmentName}} gender:{{ item.gender}} lastName:{{ item.lastName}}  firstName:{{ item.firstName}}
+    </li>
+</ul>
